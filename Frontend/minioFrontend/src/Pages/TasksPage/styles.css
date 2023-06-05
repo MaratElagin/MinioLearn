@@ -1,0 +1,183 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.task-page {
+    padding: 20px;
+}
+
+h1 {
+    color: #264653;
+}
+
+.task-text {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.task-text-box {
+    border: solid 2px #f4a261;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.task-circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #2a9d8f;
+    color: white;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+p {
+    margin: 0;
+}
+
+.tasks-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.tasks-table th,
+.tasks-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+
+.tasks-table th:first-child,
+.tasks-table td:first-child {
+    border-left: 1px solid #ccc;
+}
+
+.tasks-table th {
+    background-color: #264653;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.tasks-table td {
+    background-color: #f9f9f9;
+}
+
+.tasks-table a {
+    color: #2a9d8f;
+    text-decoration: none;
+}
+
+.tasks-table a:hover {
+    text-decoration: underline;
+}
+
+.tasks-table tbody tr:hover {
+    background-color: #e9c46a;
+}
+
+.photo-upload-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.file-input-label {
+    position: relative;
+}
+
+.file-input-label input[type='file'] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.upload-placeholder:hover {
+    cursor: pointer;
+    background-color: white;
+    font-weight: bolder;
+}
+
+.upload-placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+    margin: 20px 0;
+    border: 2px dashed #ccc;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+    color: #888;
+    font-size: 18px;
+}
+
+.submit-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #2a9d8f;
+    color: #fff;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #1e7168;
+}
+
+.photo-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.photo-card {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.photo-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.photo-content {
+    padding: 10px;
+}
+
+.photo-label {
+    font-weight: bold;
+}
+
+.delete-button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    font-weight: bold;
+    cursor: pointer;
+}

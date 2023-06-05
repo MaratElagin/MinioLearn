@@ -1,0 +1,122 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  color: #264653;
+}
+
+h2 {
+  color: #2a9d8f;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #e76f51;
+  color: white;
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #f4a261;
+}
+
+.navbar {
+  background-color: #264653;
+  color: white;
+  width: 200px;
+  padding: 20px;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.navbar-nav {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-item {
+  margin-bottom: 10px;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Optional: Add additional styles to customize the appearance */
+
+.navbar {
+  font-family: 'Roboto', sans-serif;
+}
+
+.navbar h1 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+.app {
+  display: flex;
+}
+
+.navbar {
+  background-color: #264653;
+  color: white;
+  width: 200px;
+  padding: 20px;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.navbar-nav {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  margin-top: 20px;
+}
+
+.nav-item {
+  font-size: 20px;
+  margin-left: 80px;
+  margin-bottom: 20px;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.nav-link.active {
+  font-weight: bold;
+}
